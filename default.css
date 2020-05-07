@@ -1,0 +1,89 @@
+.copyright {font-family: "Times New Roman", "Times", serif; color: white;
+background-color: black; text-align: center}
+
+.boldface {font-size:25px; font-weight: bold; text-align:center; color:olive}
+
+h1 {font-family: "Algerian", "Verdana", "Arial", sans-serif; color:silver}
+
+h4 {font-family: "Algerian", "Verdana", "Arial", sans-serif}
+
+.quote {color:aqua}
+
+.zodiac {float:left; margin-bottom:50px; margin-right:14px; height:180px}
+
+.zoom img:hover {transform:scale(1.1)}
+
+.caption {color:#00cc00; font-size: 20px; text-align:center}
+
+.signs {float:left; margin-right:10px; margin-bottom:10px}
+
+.background {background-image: url(ela.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; background-color: beige}
+
+p {font-family: “Verdana”, “Arial”, sans-serif; font-size: 16px; color: white; text-shadow: 2px 2px 4px #000000}
+
+h3 {color: black; text-shadow: 0 0 3px #FF0000;
+; font-family: "Papyrus", "Trebuchet MS", "Candara", "Century Gothic"}
+
+h2 {color: #0033cc; text-shadow: 2px 2px 8px #0099ff; font-family: "Algerian", "Mistral", "Magneto", "Matura MT Script Capitals"}
+
+.paragraph {font-family: “Verdana”, “Arial”, sans-serif; font-size: 16px; color: black; text-shadow: none}
+
+nav {font-family: "Times New Roman", "Times", serif; color: silver; text-align: center}
+
+a:link {color: blue}
+a:visited {color: green}
+a:hover {color: lime}
+a:active {color: red}
+
+.column {
+  float: left;
+  width: 16%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.element {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
